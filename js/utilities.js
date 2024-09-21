@@ -2,7 +2,8 @@
 
 //log out button
 document.getElementById("log-out-btn").addEventListener("click", function(){
-     window.location.href = "/index.html";
+     // window.location.href = "/index.html";
+     window.open('index.html', '_self');
 });
 
 //get input value by id
