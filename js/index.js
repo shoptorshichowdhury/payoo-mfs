@@ -16,7 +16,8 @@ loginBtn.addEventListener("click", function(event){
 
     //pin verify [temporary version]
     if (pinNumber === 1234){
-        window.location.href = "/home.html";
+        // window.location.href = "/home.html";
+        window.open('home.html', '_self');
     }else{
         alert("Wrong pin or phone number. Try again later!");
     }
